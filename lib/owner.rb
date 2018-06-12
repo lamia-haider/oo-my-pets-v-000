@@ -59,4 +59,11 @@ class Owner
     pets[:dogs] << Dog.new(dogname)
   end
 
+  def sell_pets
+    pets.each do |anim| anim.mood = "nervous"
+    end
+    pets = {}
+  end
+
+
 end
