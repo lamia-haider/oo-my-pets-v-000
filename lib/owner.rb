@@ -35,4 +35,8 @@ class Owner
     pets[:fishes] << Fish.new(fishname)
   end
 
+  def feed_fish
+    Fish.mood = "happy"
+  end
+
 end
