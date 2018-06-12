@@ -28,6 +28,11 @@ class Owner
 
   def say_species
     return "I am a #{species}."
+
+  end
+
+  def buy_fish(fishname)
+    pets[:fish] << Fish.new(fishname)
   end
 
 end
