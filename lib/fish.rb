@@ -9,7 +9,7 @@ class Fish
   end
 
   def mood=(mood)
-    @mood = mood
+    @mood = "mood"
   end
 
 
