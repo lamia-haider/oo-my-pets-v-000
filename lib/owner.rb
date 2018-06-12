@@ -1,6 +1,7 @@
 class Owner
   # code goes here
-  attr_accessor :species, :pets
+  attr_reader :species, :name
+  attr_accessor :pets
   @@all = []
 
   def initialize(species)
