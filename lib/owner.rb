@@ -36,8 +36,10 @@ class Owner
   end
 
   def feed_fish
-    Fish.mood = "happy"
+    pets[:fish].each do |fi| fi.mood="happy"
+    end
   end
+
 
   def buy_cat(catname)
     pets[:cats] << Cat.new(catname)
