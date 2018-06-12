@@ -66,7 +66,7 @@ class Owner
     end
     pets[:fishes].each do |fi| fi.mood="nervous"
     end
-    @pets.reset
+    @pets.clear
 
 
   end
