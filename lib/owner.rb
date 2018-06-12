@@ -39,4 +39,12 @@ class Owner
     Fish.mood = "happy"
   end
 
+  def buy_cat(catname)
+    pets[:cats] << Cat.new(catname)
+  end
+  
+  def buy_dog(dogname)
+    pets[:dogs] << Dog.new(dogname)
+  end
+
 end
